@@ -1,0 +1,18 @@
+#include<iostream>
+#include <sstream>
+#include<alogrithm>
+using namespace std;
+
+int main()
+{
+
+#ifdef RAHUL
+    freopen("input.txt","r",stdin);
+#endif
+
+
+
+
+
+
+}

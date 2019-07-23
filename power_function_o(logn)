@@ -1,0 +1,36 @@
+#include<iostream>
+#include <sstream>
+#include<algorithm>
+using namespace std;
+//called as the binary exponentiation of the
+
+int power(int a, int b)
+{
+   
+
+ if(b%2==0)
+    {
+        return power(a,b/2)*power(a,b/2);
+    }
+    else
+    {
+        return a*power(a,b/2)*power(a,b/2);
+    }
+}
+int main()
+{
+
+#ifdef RAHUL
+    freopen("input.txt","r",stdin);
+#endif
+int a,b;
+cin>>a;
+cin>>b;
+int x=power(a,b);
+cout<<x<<endl;
+
+
+
+
+
+}
